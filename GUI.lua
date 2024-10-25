@@ -1,22 +1,22 @@
 
 
-if shared.CuriousliExecuted then
-	warn("Curiousli Already Injected")
-	error("Curiousli Already Injected")
+if shared.AmethystExecuted then
+	warn("Amethyst Already Injected")
+	error("Amethyst Already Injected")
 	return
 else
-	shared.CuriousliExecuted = true
+	shared.AmethystExecuted = true
 	--here--
 	
 	
 	
 
-local curiousli = Instance.new("ScreenGui")
-curiousli.IgnoreGuiInset = false
-curiousli.ResetOnSpawn = true
-curiousli.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-curiousli.Name = "Curiousli"
-curiousli.Parent = game.CoreGui
+local amethyst = Instance.new("ScreenGui")
+amethyst.IgnoreGuiInset = false
+amethyst.ResetOnSpawn = true
+amethyst.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+amethyst.Name = "Curiousli"
+amethyst.Parent = game.CoreGui
 
 local background = Instance.new("Frame")
 background.BackgroundColor3 = Color3.new(0.172549, 0.0666667, 0.176471)
@@ -732,7 +732,7 @@ text_label.Parent = cmds
 
 local private = Instance.new("TextLabel")
 private.Font = Enum.Font.SourceSansBold
-private.Text = "CURIOUSLI"
+private.Text = "AMETHYST"
 private.TextColor3 = Color3.new(0.721569, 0.505882, 0)
 private.TextScaled = true
 private.TextSize = 14
@@ -743,7 +743,7 @@ private.Position = UDim2.new(0.826205611, 0, 0, 0)
 private.Size = UDim2.new(0.173794359, 0, 0.0821052641, 0)
 private.Visible = false
 private.Name = "Private"
-private.Parent = curiousli
+private.Parent = amethyst
 
 local main_9 = Instance.new("ImageLabel")
 main_9.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -764,7 +764,7 @@ happy.Parent = curiousli
 
 local text_label_2 = Instance.new("TextLabel")
 text_label_2.Font = Enum.Font.SourceSans
-text_label_2.Text = "HAPPY NEW YEAR!"
+text_label_2.Text = "HAPPY HALLOWEEN!"
 text_label_2.TextColor3 = Color3.new(0.921569, 1, 0.2)
 text_label_2.TextScaled = true
 text_label_2.TextSize = 14
@@ -1710,7 +1710,7 @@ task.spawn(function()
 	end
 
 	script.Parent.MouseButton1Click:Connect(function()
-		local invite = "https://discord.gg/h9BzRqMse2"
+		local invite = "soon"
 		setclipboard(invite)
 	end)
 end)
